@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="DrawingSystemApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DrawingSystemApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1366" Height="772">
+
+    <Grid Width="1366" Height="768">
+        <Canvas x:Name="_canvas" Margin="99,138,99,106" FocusVisualPrimaryBrush="Black" Background="#FFF0FD00">
+        </Canvas>
+        <Button x:Name="_rectangleButton" Content="Rectangle&#xD;&#xA;" Margin="0,76,0,0" VerticalAlignment="Top" Height="56" Width="198" HorizontalAlignment="Center"/>
+        <Button x:Name="_eclipseButton" Content="Ellipse&#xD;&#xA;&#xA;" Margin="822,76,0,0" VerticalAlignment="Top" Height="56" Width="198"/>
+        <Button x:Name="_clearAllButton" Content="Clear All&#xD;&#xA;&#xA;" Margin="1069,76,0,0" VerticalAlignment="Top" Height="56" Width="198"/>
+        <Button x:Name="_undoButton" Content="Undo" Margin="29,23,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Button x:Name="_redoButton" Content="Redo" Margin="99,23,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Button x:Name="_mouseButton" Content="Mouse&#xA;" Margin="99,76,0,0" VerticalAlignment="Top" Height="56" Width="198"/>
+        <Button x:Name="_LineButton" Content="Line&#xA;&#xA;" Margin="348,76,0,0" VerticalAlignment="Top" Height="56" Width="198"/>
+        <TextBlock x:Name="_selectedShapeTextBlock" HorizontalAlignment="Left" Margin="99,688,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" Margin="243,-48,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="_saveButton" Content="Save" Margin="169,23,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="_LoadButton" Content="Load" Margin="243,23,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

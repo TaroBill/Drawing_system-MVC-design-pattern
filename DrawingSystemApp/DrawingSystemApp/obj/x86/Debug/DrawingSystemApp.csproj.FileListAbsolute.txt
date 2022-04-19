@@ -1,0 +1,11 @@
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\DrawingSystemApp.csproj.AssemblyReference.cache
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\App.g.i.cs
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\App.g.cs
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\MainPage.g.i.cs
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\MainPage.g.cs
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\App.xaml
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\MainPage.xaml
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\App.xbf
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\MainPage.xbf
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\obj\x86\Debug\XamlSaveStateFile.xml

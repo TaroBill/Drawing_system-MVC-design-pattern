@@ -1,0 +1,2 @@
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\DrawingSystemApp.csproj;x64
+D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemAppTest\DrawingSystemAppTest.csproj;x64

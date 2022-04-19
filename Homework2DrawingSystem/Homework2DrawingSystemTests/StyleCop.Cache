@@ -1,0 +1,262 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="-1553172382">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="DrawEclipseStateTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/13 17:05:20.082</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawEclipseStateTests.cs on line 46.</context>
+        <line>46</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="-302771797">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="FormPresentationModelTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/26 01:40:41.986</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MockGraphics.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 17:55:05.769</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="SpacingAndNewLine7" ruleCheckId="SN0007">
+        <context>ICS(空白與空行-7)</context>
+        <line>37</line>
+        <index>864</index>
+        <endIndex>865</endIndex>
+        <startLine>37</startLine>
+        <startColumn>25</startColumn>
+        <endLine>37</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LiteralConstants" ruleCheckId="LC0001">
+        <context>Literal constants(字面常數)-2</context>
+        <line>37</line>
+        <index>866</index>
+        <endIndex>866</endIndex>
+        <startLine>37</startLine>
+        <startColumn>27</startColumn>
+        <endLine>37</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LiteralConstants" ruleCheckId="LC0001">
+        <context>Literal constants(字面常數)-2</context>
+        <line>55</line>
+        <index>1313</index>
+        <endIndex>1313</endIndex>
+        <startLine>55</startLine>
+        <startColumn>29</startColumn>
+        <endLine>55</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="CommandManagerTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/26 01:06:26.702</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ModelTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 22:18:20.183</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="EllipseTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 18:21:19.354</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\Shapes\EllipseTests.cs on line 27.</context>
+        <line>27</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="FreeLineTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 19:03:55.301</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\Shapes\FreeLineTests.cs on line 26.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="LineTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 19:11:41.589</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\Shapes\LineTests.cs on line 119.</context>
+        <line>119</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="RectangleTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 18:23:59.569</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\Shapes\RectangleTests.cs on line 21.</context>
+        <line>21</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="DrawEllipseStateTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 17:58:11.609</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawEllipseStateTests.cs on line 47.</context>
+        <line>47</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="DrawLineStateTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 17:57:54.507</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawLineStateTests.cs on line 55.</context>
+        <line>55</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="DrawRectangleStateTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2022/01/13 17:57:43.933</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawRectangleStateTests.cs on line 47.</context>
+        <line>47</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/12 23:14:37.850</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Robot.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/13 21:56:51.725</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.CsParser" rule="SyntaxException" ruleCheckId="SA0102">
+        <context>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs on line 146.</context>
+        <line>146</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="UITest.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 09:58:22.071</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/26 01:53:08.231</sourceFile>
+      <parser>2021/10/04 09:58:22.071</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 09:58:22.071</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

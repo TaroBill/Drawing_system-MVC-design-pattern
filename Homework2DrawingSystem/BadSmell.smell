@@ -1,0 +1,1418 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>FormGraphicAdapter.cs</File>
+              <Line>70</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>FormGraphicAdapter.cs</File>
+              <Line>71</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\FormPresentationModel.cs on line 108.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>FormPresentationModel.cs</File>
+              <Line>108</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\Model.cs on line 117.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>Model.cs</File>
+              <Line>117</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\Shapes\Ellipse.cs on line 66.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>Ellipse.cs</File>
+              <Line>66</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\Shapes\FreeLine.cs on line 57.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>FreeLine.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\Shapes\Line.cs on line 59.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>Line.cs</File>
+              <Line>59</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\Shapes\Rectangle.cs on line 66.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>Rectangle.cs</File>
+              <Line>66</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\Shapes\Shape.cs on line 30.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>Shape.cs</File>
+              <Line>30</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawEllipseStateTests.cs on line 47.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>DrawEllipseStateTests.cs</File>
+              <Line>47</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawLineStateTests.cs on line 55.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>DrawLineStateTests.cs</File>
+              <Line>55</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Model\States\DrawRectangleStateTests.cs on line 47.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>DrawRectangleStateTests.cs</File>
+              <Line>47</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs on line 146.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>Robot.cs</File>
+              <Line>146</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Literal constants(字面常數)-"Failed to load Page "</SmellType>
+              <HashCode>LiteralConstants.OnNavigationFailed."Failed to load Page "</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>83</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.App.OnLaunched.35LaunchActivatedEventArgs e;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>35</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>40</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.App.OnNavigationFailed</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>81</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.App.OnSuspending</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>A syntax error has been discovered in file D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\DrawingPresentationModel.cs on line 109.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>DrawingPresentationModel.cs</File>
+              <Line>109</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>38</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>43</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>52</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>70</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>75</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>90</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>26</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>95</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>27</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>117</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>28</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>122</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-9) 陣列初始化的左大括號後面，右大括號前面</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>29</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.WindowsStoreGraphicsAdaptor.DrawRectangleFrame.22double locationX1;double locationY1;double locationX2;double locationY2;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>22</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>80</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>30</Id>
+              <SmellType>Literal constants(字面常數)-"Failed to load Page "</SmellType>
+              <HashCode>LiteralConstants.OnNavigationFailed."Failed to load Page "</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemAppTest</Project>
+              <File>UnitTestApp.xaml.cs</File>
+              <Line>85</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>31</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.App.OnLaunched.37LaunchActivatedEventArgs e;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>37</Weight>
+              <Project>DrawingSystemAppTest</Project>
+              <File>UnitTestApp.xaml.cs</File>
+              <Line>40</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>32</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.App.OnNavigationFailed</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemAppTest</Project>
+              <File>UnitTestApp.xaml.cs</File>
+              <Line>83</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>33</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.App.OnSuspending</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemAppTest</Project>
+              <File>UnitTestApp.xaml.cs</File>
+              <Line>95</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>34</Id>
+              <SmellType>Unresolved warnings(忽視警告)-使用模式比對</SmellType>
+              <HashCode>..\DrawingSystemApp\DrawingSystemApp\DrawingSystemApp.App.xaml.cs.Unresolved warnings(忽視警告)-使用模式比對.42</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>..\DrawingSystemApp\DrawingSystemApp\DrawingSystemApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>42</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>35</Id>
+              <SmellType>Unresolved warnings(忽視警告)-使用模式比對</SmellType>
+              <HashCode>..\DrawingSystemApp\DrawingSystemAppTest\DrawingSystemAppTest.UnitTestApp.xaml.cs.Unresolved warnings(忽視警告)-使用模式比對.50</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>..\DrawingSystemApp\DrawingSystemAppTest\DrawingSystemAppTest</Project>
+              <File>UnitTestApp.xaml.cs</File>
+              <Line>50</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>36</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>54 DrawingSystemApp.MainPage.UnloadObject(Windows.UI.Xaml.DependencyObject)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>MainPage.g.i.cs</File>
+              <Line>54</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingSystemApp.MainPage.UnloadObject(Windows.UI.Xaml.DependencyObject)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>37</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>20 DrawingSystemApp.Program.Main(string[])</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>App.g.i.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingSystemApp.Program.Main(string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>38</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>129 DrawingSystemApp.DrawingSystemApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByType(System.Type)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>129</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingSystemApp.DrawingSystemApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByType(System.Type)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>39</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>134 DrawingSystemApp.DrawingSystemApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByName(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>134</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingSystemApp.DrawingSystemApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>40</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>20 DrawingSystemAppTest.Program.Main(string[])</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemAppTest</Project>
+              <File>UnitTestApp.g.i.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingSystemAppTest.Program.Main(string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>41</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>61 目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\States\DefaultState.cs</File>
+              <Line>61</Line>
+              <StartLine>60</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>42</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>62 目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\States\DefaultState.cs</File>
+              <Line>62</Line>
+              <StartLine>61</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>62</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>43</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>39 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\States\DrawLineState.cs</File>
+              <Line>39</Line>
+              <StartLine>38</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>39</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>44</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>56 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：1次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\States\DrawLineState.cs</File>
+              <Line>56</Line>
+              <StartLine>56</StartLine>
+              <StartCol>20</StartCol>
+              <EndLine>56</EndLine>
+              <EndCol>53</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：1次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>45</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>61 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\States\DrawLineState.cs</File>
+              <Line>61</Line>
+              <StartLine>60</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>46</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>62 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.CommandManager 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\Model\States\DrawLineState.cs</File>
+              <Line>62</Line>
+              <StartLine>61</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>62</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.CommandManager 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>47</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>116 目前物件 Homework2DrawingSystem.FormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.SelectedShape 以及 Homework2DrawingSystem.Model.Model.SelectedShape</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystem</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\FormPresentationModel.cs</File>
+              <Line>116</Line>
+              <StartLine>115</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>116</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.FormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.SelectedShape 以及 Homework2DrawingSystem.Model.Model.SelectedShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>48</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>76 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveToElement(OpenQA.Selenium.IWebElement) 以及 OpenQA.Selenium.Interactions.Actions.Perform()</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs</File>
+              <Line>76</Line>
+              <StartLine>75</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>76</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveToElement(OpenQA.Selenium.IWebElement) 以及 OpenQA.Selenium.Interactions.Actions.Perform()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>49</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>77 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveByOffset(int, int) 以及 OpenQA.Selenium.Interactions.Actions.ClickAndHold() 以及 OpenQA.Selenium.Interactions.Actions.Perform()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs</File>
+              <Line>77</Line>
+              <StartLine>76</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>77</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveByOffset(int, int) 以及 OpenQA.Selenium.Interactions.Actions.ClickAndHold() 以及 OpenQA.Selenium.Interactions.Actions.Perform()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>50</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>78 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveByOffset(int, int) 以及 OpenQA.Selenium.Interactions.Actions.Release() 以及 OpenQA.Selenium.Interactions.Actions.Perform()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs</File>
+              <Line>78</Line>
+              <StartLine>77</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>78</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveByOffset(int, int) 以及 OpenQA.Selenium.Interactions.Actions.Release() 以及 OpenQA.Selenium.Interactions.Actions.Perform()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>51</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>166 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs</File>
+              <Line>166</Line>
+              <StartLine>166</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>166</EndLine>
+              <EndCol>103</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>52</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>169 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs</File>
+              <Line>169</Line>
+              <StartLine>169</StartLine>
+              <StartCol>28</StartCol>
+              <EndLine>169</EndLine>
+              <EndCol>46</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>53</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>171 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.Text 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Homework2DrawingSystemTests</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystemTests\Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>171</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>171</EndLine>
+              <EndCol>131</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.Text 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>54</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>61 目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\model\States\DefaultState.cs</File>
+              <Line>61</Line>
+              <StartLine>60</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>55</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>62 目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\model\States\DefaultState.cs</File>
+              <Line>62</Line>
+              <StartLine>61</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>62</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DefaultState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>56</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>39 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\model\States\DrawLineState.cs</File>
+              <Line>39</Line>
+              <StartLine>38</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>39</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>57</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>56 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：1次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\model\States\DrawLineState.cs</File>
+              <Line>56</Line>
+              <StartLine>56</StartLine>
+              <StartCol>20</StartCol>
+              <EndLine>56</EndLine>
+              <EndCol>53</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：1次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>58</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>61 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\model\States\DrawLineState.cs</File>
+              <Line>61</Line>
+              <StartLine>60</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>59</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>62 目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.CommandManager 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\Homework2DrawingSystem\Homework2DrawingSystem\model\States\DrawLineState.cs</File>
+              <Line>62</Line>
+              <StartLine>61</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>62</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 Homework2DrawingSystem.Model.States.DrawLineState，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.CommandManager 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double) 以及 Homework2DrawingSystem.Model.Model.GetShape(double, double)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>60</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>117 目前物件 DrawingSystemApp.DrawingPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.SelectedShape 以及 Homework2DrawingSystem.Model.Model.SelectedShape</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingSystemApp</Project>
+              <File>D:\school\視窗程式設計(C# .Net\Hw2_畫圖系統\DrawingSystemApp\DrawingSystemApp\DrawingPresentationModel.cs</File>
+              <Line>117</Line>
+              <StartLine>116</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>117</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingSystemApp.DrawingPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework2DrawingSystem.Model.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework2DrawingSystem.Model.Model.SelectedShape 以及 Homework2DrawingSystem.Model.Model.SelectedShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList />
+          <HashCodeRequestIgnoreList>
+            <string>171 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.Text 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</string>
+            <string xsi:nil="true" />
+            <string>76 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveToElement(OpenQA.Selenium.IWebElement) 以及 OpenQA.Selenium.Interactions.Actions.Perform()</string>
+            <string>77 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveByOffset(int, int) 以及 OpenQA.Selenium.Interactions.Actions.ClickAndHold() 以及 OpenQA.Selenium.Interactions.Actions.Perform()</string>
+            <string>78 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Interactions.Actions，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：OpenQA.Selenium.Interactions.Actions.MoveByOffset(int, int) 以及 OpenQA.Selenium.Interactions.Actions.Release() 以及 OpenQA.Selenium.Interactions.Actions.Perform()</string>
+            <string>166 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</string>
+            <string>169 目前物件 Homework2DrawingSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</string>
+          </HashCodeRequestIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>DoubleBufferPanel.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrawingForm.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrawingForm.Designer.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>FormGraphicAdapter.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>FormPresentationModel.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\ClearAll.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\CommandFactory.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\CommandManager.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\DrawShape.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\ICommand.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\MoveShape.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\GoogleDriveService.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\IGraphics.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Model.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\Ellipse.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\FreeLine.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\Line.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\Rectangle.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\Shape.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\ShapeFactory.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DefaultState.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DrawEllipseState.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DrawLineState.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DrawRectangleState.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\IState.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\StateFactory.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Resources.Designer.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Settings.Designer.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>FormPresentationModelTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MockGraphics.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Command\CommandManagerTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\ModelTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\EllipseTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\FreeLineTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\LineTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\Shapes\RectangleTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DrawEllipseStateTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DrawLineStateTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model\States\DrawRectangleStateTests.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Robot.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>UITest.cs</RelativePath>
+                <ProjectName>Homework2DrawingSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>App.xaml.cs</RelativePath>
+                <ProjectName>DrawingSystemApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrawingPresentationModel.cs</RelativePath>
+                <ProjectName>DrawingSystemApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MainPage.xaml.cs</RelativePath>
+                <ProjectName>DrawingSystemApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>DrawingSystemApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>WindowsStoreGraphicsAdaptor.cs</RelativePath>
+                <ProjectName>DrawingSystemApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrawingPresentationModelTest.cs</RelativePath>
+                <ProjectName>DrawingSystemAppTest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>DrawingSystemAppTest</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>UnitTestApp.xaml.cs</RelativePath>
+                <ProjectName>DrawingSystemAppTest</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>1770</ProductionLoc>
+          <TestLoc>802</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>

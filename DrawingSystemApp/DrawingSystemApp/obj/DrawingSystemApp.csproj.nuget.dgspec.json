@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\school\\視窗程式設計(C# .Net\\Hw2_畫圖系統\\DrawingSystemApp\\DrawingSystemApp\\DrawingSystemApp.csproj": {}
+  },
+  "projects": {
+    "D:\\school\\視窗程式設計(C# .Net\\Hw2_畫圖系統\\DrawingSystemApp\\DrawingSystemApp\\DrawingSystemApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\school\\視窗程式設計(C# .Net\\Hw2_畫圖系統\\DrawingSystemApp\\DrawingSystemApp\\DrawingSystemApp.csproj",
+        "projectName": "DrawingSystemApp",
+        "projectPath": "D:\\school\\視窗程式設計(C# .Net\\Hw2_畫圖系統\\DrawingSystemApp\\DrawingSystemApp\\DrawingSystemApp.csproj",
+        "packagesPath": "C:\\Users\\bill8\\.nuget\\packages\\",
+        "outputPath": "D:\\school\\視窗程式設計(C# .Net\\Hw2_畫圖系統\\DrawingSystemApp\\DrawingSystemApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bill8\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Google.Apis.Drive.v2": {
+              "target": "Package",
+              "version": "[1.55.0.2566, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

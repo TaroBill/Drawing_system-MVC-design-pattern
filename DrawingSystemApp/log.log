@@ -1,0 +1,94 @@
+TestWindow package loaded
+Informational: 記錄層級已設定為 資訊性 (預設)。
+Informational: 記錄層級已設定為 資訊性 (預設)。
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:154
+TableControl: About to update entries 2021/12/13 下午 09:49:20:155
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:156
+TableControl: Updating entries 2021/12/13 下午 09:49:20:159
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:161
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:164
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:166
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:20:296
+TableControl: Refreshing UI 2021/12/13 下午 09:49:20:296
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:299
+TableControl: About to update entries 2021/12/13 下午 09:49:20:300
+TableControl: Updating entries 2021/12/13 下午 09:49:20:315
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:20:316
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:316
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:318
+TableControl: Refreshing UI 2021/12/13 下午 09:49:20:319
+TableControl: QueueUpdate 2021/12/13 下午 09:49:20:320
+TableControl: About to update entries 2021/12/13 下午 09:49:20:321
+TableControl: Updating entries 2021/12/13 下午 09:49:20:321
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:20:322
+Informational: 測試資料存放區在 0.108 秒內開啟。
+TableControl: QueueUpdate 2021/12/13 下午 09:49:22:549
+TableControl: About to update entries 2021/12/13 下午 09:49:22:549
+TableControl: Updating entries 2021/12/13 下午 09:49:22:556
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:22:576
+TableControl: Refreshing UI 2021/12/13 下午 09:49:22:577
+Informational: 開始為要求的測試回合執行測試探索
+Informational: ========== 開始測試探索 ==========
+Informational: ========== 測試探索已完成: 在 7.7 秒 找到 8 項測試 ==========
+Informational: ========== 開始測試回合 ==========
+TableControl: QueueUpdate 2021/12/13 下午 09:49:37:436
+TableControl: About to update entries 2021/12/13 下午 09:49:37:541
+TableControl: Updating entries 2021/12/13 下午 09:49:37:541
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:37:542
+TableControl: Refreshing UI 2021/12/13 下午 09:49:37:542
+Informational: ========== 測試回合已完成: 在 421 毫秒 執行了 8 項測試 (6 項通過，2 項失敗，0 項跳過) ==========
+TableControl: QueueUpdate 2021/12/13 下午 09:49:43:398
+TableControl: About to update entries 2021/12/13 下午 09:49:43:507
+TableControl: Updating entries 2021/12/13 下午 09:49:43:507
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:43:942
+TableControl: Refreshing UI 2021/12/13 下午 09:49:43:943
+TableControl: QueueUpdate 2021/12/13 下午 09:49:45:195
+TableControl: About to update entries 2021/12/13 下午 09:49:45:195
+TableControl: Updating entries 2021/12/13 下午 09:49:45:195
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:45:196
+TableControl: Refreshing UI 2021/12/13 下午 09:49:45:204
+TableControl: QueueUpdate 2021/12/13 下午 09:49:45:877
+TableControl: About to update entries 2021/12/13 下午 09:49:45:877
+TableControl: Updating entries 2021/12/13 下午 09:49:45:878
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:45:879
+TableControl: Refreshing UI 2021/12/13 下午 09:49:45:887
+TableControl: QueueUpdate 2021/12/13 下午 09:49:46:841
+TableControl: About to update entries 2021/12/13 下午 09:49:46:841
+TableControl: Updating entries 2021/12/13 下午 09:49:46:842
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:49:46:842
+TableControl: Refreshing UI 2021/12/13 下午 09:49:46:842
+Informational: 開始為要求的測試回合執行測試探索
+Informational: ========== 開始測試探索 ==========
+Informational: ========== 測試探索已完成: 在 1.7 秒 找到 8 項測試 ==========
+Informational: ========== 開始測試回合 ==========
+TableControl: QueueUpdate 2021/12/13 下午 09:50:30:732
+TableControl: About to update entries 2021/12/13 下午 09:50:30:733
+TableControl: Updating entries 2021/12/13 下午 09:50:30:733
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:50:30:734
+TableControl: Refreshing UI 2021/12/13 下午 09:50:30:734
+Informational: ========== 測試回合已完成: 在 233 毫秒 執行了 8 項測試 (6 項通過，2 項失敗，0 項跳過) ==========
+TableControl: QueueUpdate 2021/12/13 下午 09:50:32:835
+TableControl: About to update entries 2021/12/13 下午 09:50:32:944
+TableControl: Updating entries 2021/12/13 下午 09:50:32:944
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:50:32:945
+TableControl: Refreshing UI 2021/12/13 下午 09:50:32:945
+Informational: 開始為要求的測試回合執行測試探索
+Informational: ========== 開始測試探索 ==========
+Informational: ========== 測試探索已完成: 在 1.7 秒 找到 8 項測試 ==========
+Informational: ========== 開始測試回合 ==========
+TableControl: QueueUpdate 2021/12/13 下午 09:50:58:788
+TableControl: About to update entries 2021/12/13 下午 09:50:58:893
+TableControl: Updating entries 2021/12/13 下午 09:50:58:893
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:50:58:894
+TableControl: Refreshing UI 2021/12/13 下午 09:50:58:894
+Informational: ========== 測試回合已完成: 在 172 毫秒 執行了 8 項測試 (8 項通過，0 項失敗，0 項跳過) ==========
+TableControl: QueueUpdate 2021/12/13 下午 09:51:00:920
+TableControl: About to update entries 2021/12/13 下午 09:51:01:26
+TableControl: Updating entries 2021/12/13 下午 09:51:01:26
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:51:01:27
+TableControl: Refreshing UI 2021/12/13 下午 09:51:01:27
+TableControl: QueueUpdate 2021/12/13 下午 09:51:02:868
+TableControl: About to update entries 2021/12/13 下午 09:51:02:869
+TableControl: Updating entries 2021/12/13 下午 09:51:02:869
+TableControl: Updating entries (UI thread) 2021/12/13 下午 09:51:02:888
+TableControl: Refreshing UI 2021/12/13 下午 09:51:02:888

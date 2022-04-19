@@ -1,0 +1,5 @@
+﻿Rectangle(10,10,20,20)
+Rectangle(1,2,3,4)
+Rectangle(50,100,200,200)
+Ellipse(10,20,40,40)
+Line(Ellipse(10,20,40,40)-Rectangle(50,100,200,200))
